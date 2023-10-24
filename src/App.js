@@ -8,7 +8,6 @@ const App = () => {
   const handleClick1 = () => {
     setCounter(counter + 1)
   }
-
   const handleClick2 = () => {
     setCounter(counter - 1)
   }
@@ -23,7 +22,6 @@ const App = () => {
       height: '100%', 
       top: '-15%',
     }}>
-
       counter App
       <div style={{
         fontSize: '120%', 
