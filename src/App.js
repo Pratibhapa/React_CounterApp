@@ -40,6 +40,7 @@ const App = () => {
           borderRadius: '8%', 
           color: 'white', 
         }}
+          
         onClick={handleClick1}>Increment</button> 
         <button style={{ 
           fontSize: '60%', 
@@ -55,8 +56,4 @@ const App = () => {
       </div>
   )
 }
-
-
-
-
 export default App;
